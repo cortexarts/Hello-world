@@ -10,9 +10,10 @@ function Update ()
 	}
 }
 
-function ApplyDammage (TheDammage : int)
+function ApplyDamage (TheDamage : int)
 {
-	Health = Health - TheDammage;
+Debug.Log("in ApplyDamage");
+	Health = Health - TheDamage;
 }
 function Dead ()
 {
