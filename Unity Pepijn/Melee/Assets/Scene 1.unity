@@ -98,12 +98,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 90006279}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c30e734801d5ecd4fa286ae04f5baf9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 4dc640005785d8e4990314512230e956, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TheDamage: 50
-  Distance: 0
-  MaxDistance: 5
 --- !u!4 &90006281
 Transform:
   m_ObjectHideFlags: 0
@@ -252,7 +249,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 260933336}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77db9cba7a3997849bbe6cd255c5612d, type: 3}
+  m_Script: {fileID: 11500000, guid: 7bea1d1d30cb1f24c96c8e1e46fe7742, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 100
@@ -401,7 +398,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 881759529}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77db9cba7a3997849bbe6cd255c5612d, type: 3}
+  m_Script: {fileID: 11500000, guid: 7bea1d1d30cb1f24c96c8e1e46fe7742, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 50
