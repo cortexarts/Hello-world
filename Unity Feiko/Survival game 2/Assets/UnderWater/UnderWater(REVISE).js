@@ -8,7 +8,7 @@ private var underwaterColor : Color;
 private var chMotor : CharacterMotor;
 
 //NEW VARIABLES
-private var canSwim : boolean = true;
+private var canSwim : boolean = false;
 private var underGround : boolean = false;
 var groundLevel : float;
 
