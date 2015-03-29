@@ -2,7 +2,7 @@
 
 private var hasAxe : boolean = false;
 
-private var canSwing : boolean = true;
+public var canSwing : boolean = true;
 private var isSwinging : boolean = false;
 var swingTimer : float = 0.7;
 

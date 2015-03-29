@@ -46,19 +46,20 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Custom spul\Palm Trees\Scripts\WavingAnimation Script.js" />
      <Compile Include="Assets\Custom spul\Survival game scripts\CampfireBuild.js" />
      <Compile Include="Assets\Custom spul\Survival game scripts\Crafting.js" />
      <Compile Include="Assets\Custom spul\Survival game scripts\Inventory.js" />
      <Compile Include="Assets\Custom spul\Survival game scripts\PlayerControl.js" />
-     <Compile Include="Assets\Custom spul\Survival game scripts\PlayerControl1.js" />
      <Compile Include="Assets\Custom spul\Survival game scripts\PlayerGUI.js" />
+     <Compile Include="Assets\Custom spul\Survival game scripts\RayCastChop.js" />
      <Compile Include="Assets\Custom spul\Survival game scripts\RayCastCollect.js" />
+     <Compile Include="Assets\Custom spul\Survival game scripts\RayCastTree.js" />
      <Compile Include="Assets\Custom spul\Survival game scripts\StoneController.js" />
      <Compile Include="Assets\Custom spul\Survival game scripts\TreeController.js" />
      <Compile Include="Assets\Destroyed_city_FREE\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
      <Compile Include="Assets\Destroyed_city_FREE\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />
      <Compile Include="Assets\ObjectLabel.js" />
+     <Compile Include="Assets\Palm Trees\Scripts\WavingAnimation Script.js" />
      <Compile Include="Assets\Scripts\JavaScripts\BumpTextureTileAnimation.js" />
      <Compile Include="Assets\Scripts\JavaScripts\FPSCounter.js" />
      <Compile Include="Assets\Scripts\JavaScripts\LightmapperObjectUV.js" />
@@ -73,7 +74,7 @@
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\GlowEffectDownsample.shader" />
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
-     <None Include="Assets\Custom spul\Palm Trees\Shaders\WavingDoublePassNoCullBackface.shader" />
+     <None Include="Assets\Palm Trees\Shaders\WavingDoublePassNoCullBackface.shader" />
      <None Include="Assets\Destroyed_city_FREE\Destroyed_city_FREE_Info.txt" />
      <None Include="Assets\Pro Standard Assets\Image Based\ColorCorrectionEffect.shader" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
@@ -106,7 +107,7 @@
      <None Include="Assets\Pro Standard Assets\Image Based\VortexEffect.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\Adaptation.shader" />
      <None Include="Assets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
-     <None Include="Assets\Custom spul\Palm Trees\Shaders\WavingDoublePassCullBackface.shader" />
+     <None Include="Assets\Palm Trees\Shaders\WavingDoublePassCullBackface.shader" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
      <None Include="Assets\Destroyed_city_FREE\Shaders\AlphaTest-DiffuseDoubleSide.shader" />

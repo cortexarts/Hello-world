@@ -1,7 +1,9 @@
 fileFormatVersion: 2
-guid: 200ce0b0c1fd11049a6f4754af02b2a7
+guid: aa749b70c0e9d844696cd52ecb75efaf
+timeCreated: 1427651892
+licenseType: Free
 ModelImporter:
-  serializedVersion: 16
+  serializedVersion: 18
   fileIDToRecycleName:
     100000: Base Human
     100002: Base HumanLCollarbone
@@ -109,6 +111,7 @@ ModelImporter:
     4300002: Box002
     7400000: Take 001
     9500000: //RootNode
+    11100000: //RootNode
     13700000: FPS_Arm_002
   materials:
     importMaterials: 1
@@ -129,7 +132,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .0500000007
+    globalScale: 2
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -137,11 +140,13 @@ ModelImporter:
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
+    keepQuads: 0
     weldVertices: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     splitTangentsAcrossUV: 1
@@ -161,6 +166,8 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   additionalBone: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

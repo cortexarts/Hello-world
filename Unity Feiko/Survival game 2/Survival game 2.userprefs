@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\UnderWater\UnderWater(REVISE).js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Custom spul\Survival game scripts\PlayerControl1.js">
     <Files>
-      <File FileName="Assets\UnderWater\UnderWater(REVISE).js" Line="12" Column="43" />
+      <File FileName="Assets\Custom spul\Survival game scripts\RayCastChop.js" Line="23" Column="67" />
+      <File FileName="Assets\Custom spul\Survival game scripts\PlayerControl1.js" Line="9" Column="46" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
