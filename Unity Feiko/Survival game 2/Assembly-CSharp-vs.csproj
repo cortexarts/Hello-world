@@ -63,7 +63,7 @@
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\GlowEffectDownsample.shader" />
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
-     <None Include="Assets\ALLES WAT GEBRUIKT IS ZIT HIER IN\Palm Trees\Shaders\WavingDoublePassNoCullBackface.shader" />
+     <None Include="Assets\Custom spul\Palm Trees\Shaders\WavingDoublePassNoCullBackface.shader" />
      <None Include="Assets\Destroyed_city_FREE\Destroyed_city_FREE_Info.txt" />
      <None Include="Assets\Pro Standard Assets\Image Based\ColorCorrectionEffect.shader" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
@@ -96,7 +96,7 @@
      <None Include="Assets\Pro Standard Assets\Image Based\VortexEffect.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\Adaptation.shader" />
      <None Include="Assets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
-     <None Include="Assets\ALLES WAT GEBRUIKT IS ZIT HIER IN\Palm Trees\Shaders\WavingDoublePassCullBackface.shader" />
+     <None Include="Assets\Custom spul\Palm Trees\Shaders\WavingDoublePassCullBackface.shader" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
      <None Include="Assets\Destroyed_city_FREE\Shaders\AlphaTest-DiffuseDoubleSide.shader" />
@@ -104,7 +104,7 @@
      <None Include="Assets\Pro Standard Assets\Image Based\EdgeDetectX.shader" />
      <None Include="Assets\UnderWater\READ ME.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>I:/unity/spul/Survival game 2/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>I:/unity/Github/Innocrator/hello-world/hello-world/Unity Feiko/Survival game 2/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>I:/unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
