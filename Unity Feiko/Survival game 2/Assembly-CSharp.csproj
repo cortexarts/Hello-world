@@ -56,6 +56,17 @@
      <Compile Include="Assets\Scripts\CSharpScripts\Generate2DReflection.cs" />
      <Compile Include="Assets\Scripts\CSharpScripts\MirrorReflection.cs" />
      <Compile Include="Assets\Scripts\CSharpScripts\ToggleObjectTrigger.cs" />
+     <Compile Include="Assets\SpaceAds\Scripts\CoinCounter.cs" />
+     <Compile Include="Assets\SpaceAds\Scripts\Constants.cs" />
+     <Compile Include="Assets\SpaceAds\Scripts\GameplayDemo.cs" />
+     <Compile Include="Assets\SpaceAds\Scripts\GetCoinsButton.cs" />
+     <Compile Include="Assets\SpaceAds\Scripts\Inventory.cs" />
+     <Compile Include="Assets\SpaceAds\Scripts\LevelLoader.cs" />
+     <Compile Include="Assets\SpaceAds\Scripts\RewardNotice.cs" />
+     <Compile Include="Assets\SpaceAds\Scripts\RotationUtility.cs" />
+     <Compile Include="Assets\SpaceAds\Scripts\SpaceAdsDemo.cs" />
+     <Compile Include="Assets\SpaceAds\Scripts\UnityAdsHelper.cs" />
+     <Compile Include="Assets\SpaceAds\Scripts\WatchReplayButton.cs" />
      <Compile Include="Assets\UnderWater\AnimatedProjector.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Pro Standard Assets\Glass Refraction\Glass-Stained-BumpDistort.shader" />
@@ -105,6 +116,12 @@
      <None Include="Assets\UnderWater\READ ME.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Cloud.Analytics.Util">
+ <HintPath>C:/Users/Feiko van Dijk/Documents/GitHub/hello-world/Unity Feiko/Survival game 2/Assets/Plugins/UnityEngine.Cloud.Analytics.Util.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Cloud.Analytics">
+ <HintPath>C:/Users/Feiko van Dijk/Documents/GitHub/hello-world/Unity Feiko/Survival game 2/Assets/Plugins/UnityEngine.Cloud.Analytics.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

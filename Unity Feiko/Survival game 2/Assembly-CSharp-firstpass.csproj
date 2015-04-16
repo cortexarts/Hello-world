@@ -46,6 +46,16 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Plugins\UnityAnalytics\AndroidWrapper.cs" />
+     <Compile Include="Assets\Plugins\UnityAnalytics\PlatformWrapper.cs" />
+     <Compile Include="Assets\Plugins\UnityAnalytics\UnityAnalytics.cs" />
+     <Compile Include="Assets\Plugins\UnityAnalytics\UnityAnalyticsBuildHooks.cs" />
+     <Compile Include="Assets\Plugins\UnityAnalytics\UnityAnalyticsEditor.cs" />
+     <Compile Include="Assets\Plugins\UnityAnalytics\WebGLWrapper.cs" />
+     <Compile Include="Assets\Plugins\UnityAnalytics\WebPlayerWrapper.cs" />
+     <Compile Include="Assets\Plugins\UnityAnalytics\WindowsFileSystem.cs" />
+     <Compile Include="Assets\Plugins\UnityAnalytics\WindowsMetroWrapper.cs" />
+     <Compile Include="Assets\Plugins\UnityAnalytics\iOSWrapper.cs" />
      <Compile Include="Assets\Pro Standard Assets\Image Based\BlurEffect.cs" />
      <Compile Include="Assets\Pro Standard Assets\Image Based\ColorCorrectionEffect.cs" />
      <Compile Include="Assets\Pro Standard Assets\Image Based\ColorCorrectionEffectPCMac_26.cs" />
@@ -151,6 +161,12 @@
      <None Include="Assets\UnderWater\READ ME.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Cloud.Analytics.Util">
+ <HintPath>C:/Users/Feiko van Dijk/Documents/GitHub/hello-world/Unity Feiko/Survival game 2/Assets/Plugins/UnityEngine.Cloud.Analytics.Util.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Cloud.Analytics">
+ <HintPath>C:/Users/Feiko van Dijk/Documents/GitHub/hello-world/Unity Feiko/Survival game 2/Assets/Plugins/UnityEngine.Cloud.Analytics.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
