@@ -71,7 +71,7 @@ function SetNormal ()
 function SetUnderwater () 
 		{
             RenderSettings.fogColor = underwaterColor;
-            RenderSettings.fogDensity = 0.03f;
+            RenderSettings.fogDensity = 0.15f;
             chMotor.movement.gravity = 2;
             chMotor.movement.maxFallSpeed = 5;
             chMotor.movement.maxForwardSpeed = 4;
