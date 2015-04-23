@@ -4,7 +4,22 @@ timeCreated: 1429444476
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cube
+    100004: E_small_indents
+    100006: mat_ironoxide
+    400000: //RootNode
+    400002: Cube
+    400004: E_small_indents
+    400006: mat_ironoxide
+    2300000: Cube
+    2300002: mat_ironoxide
+    3300000: Cube
+    3300002: mat_ironoxide
+    4300000: Cube
+    4300002: mat_ironoxide
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
