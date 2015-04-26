@@ -146,7 +146,7 @@ function Update()
 	//STAMINA CONTROL SECTION
 	if(controller.velocity.magnitude > 0 && Input.GetKey(KeyCode.LeftShift))
 	{
-		chMotor.movement.maxForwardSpeed = 10;
+		chMotor.movement.maxForwardSpeed = 12;
 		chMotor.movement.maxSidewaysSpeed = 10;
 		staminaBarDisplay -= Time.deltaTime / staminaFallRate;
 	}

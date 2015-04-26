@@ -132,9 +132,14 @@
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
      <None Include="Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterBumped_Fresnel.shader" />
      <None Include="Assets\Pro Standard Assets\Glass Refraction\Glass-Stained-BumpSpecDistort.shader" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterSimpleObstructionAlpha.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\GlowEffectDownsample_26.shader" />
      <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterSimpleAdditive.shader" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterReflectiveSimpleTwoSided.shader" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\DepthMask.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\SSAOShader.shader" />
@@ -145,7 +150,10 @@
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\Luminance.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\Mobile-Particle-Add (Cull On).shader" />
      <None Include="Assets\Destroyed_city_FREE\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\DynamicWater_ReadMe.txt" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterSimple.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\GrayscaleEffect.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\SepiaToneEffect.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\TwirlEffect.shader" />
@@ -158,6 +166,7 @@
      <None Include="Assets\Destroyed_city_FREE\Shaders\AlphaTest-DiffuseDoubleSide.shader" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\EdgeDetectX.shader" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterReflectiveSimple.shader" />
      <None Include="Assets\UnderWater\READ ME.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -167,6 +176,9 @@
  </Reference>
  <Reference Include="UnityEngine.Cloud.Analytics.Util">
  <HintPath>C:/Users/Feiko van Dijk/Documents/GitHub/hello-world/Unity Feiko/Survival game 2/Assets/Plugins/UnityEngine.Cloud.Analytics.Util.dll</HintPath>
+ </Reference>
+ <Reference Include="DynamicWaterNativeWrapper">
+ <HintPath>C:/Users/Feiko van Dijk/Documents/GitHub/hello-world/Unity Feiko/Survival game 2/Assets/Plugins/DynamicWaterNativeWrapper.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

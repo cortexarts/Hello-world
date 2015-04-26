@@ -48,6 +48,39 @@
   <ItemGroup>
      <Compile Include="Assets\Destroyed_city_FREE\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Destroyed_city_FREE\Standard Assets\Water (Pro Only)\Sources\Scripts\Water.cs" />
+     <Compile Include="Assets\DynamicWater\BuoyancyForce.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_BoatController.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_BoatGUI.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_BuoyancyGUI.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_CameraFade.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_CharacterRipples.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_DemoGUI.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_GUILayout.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_GameCamera.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_HUDFPS.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_MainMenuGUI.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_MouseSplash.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_ObstructionGUI.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_PoolGUI.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_SetCenterOfMass.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_Swimming.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_ThirdPersonController.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_UnderwaterThirdPersonAnimation.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_WaterBumpOffset.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_WaterSplash.cs" />
+     <Compile Include="Assets\DynamicWater\DynamicWater.cs" />
+     <Compile Include="Assets\DynamicWater\DynamicWaterSolverAdvancedAmbient.cs" />
+     <Compile Include="Assets\DynamicWater\DynamicWaterSolverAmbientSimple.cs" />
+     <Compile Include="Assets\DynamicWater\DynamicWaterSolverSimulation.cs" />
+     <Compile Include="Assets\DynamicWater\FluidVolume.cs" />
+     <Compile Include="Assets\DynamicWater\Internals\DynamicWaterCore.cs" />
+     <Compile Include="Assets\DynamicWater\Internals\DynamicWaterMath.cs" />
+     <Compile Include="Assets\DynamicWater\Internals\DynamicWaterMesh.cs" />
+     <Compile Include="Assets\DynamicWater\Internals\DynamicWaterSolver.cs" />
+     <Compile Include="Assets\DynamicWater\MarkObstructionAsTerrain.cs" />
+     <Compile Include="Assets\DynamicWater\SplashZone.cs" />
+     <Compile Include="Assets\DynamicWater\UnderwaterFog.cs" />
+     <Compile Include="Assets\DynamicWater\WaterDetector.cs" />
      <Compile Include="Assets\Scripts\CSharpScripts\BirdsBehaviour.cs" />
      <Compile Include="Assets\Scripts\CSharpScripts\BlobShadowController.cs" />
      <Compile Include="Assets\Scripts\CSharpScripts\CarCamera.cs" />
@@ -87,9 +120,14 @@
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
      <None Include="Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterBumped_Fresnel.shader" />
      <None Include="Assets\Pro Standard Assets\Glass Refraction\Glass-Stained-BumpSpecDistort.shader" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterSimpleObstructionAlpha.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\GlowEffectDownsample_26.shader" />
      <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterSimpleAdditive.shader" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterReflectiveSimpleTwoSided.shader" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\DepthMask.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\SSAOShader.shader" />
@@ -100,7 +138,10 @@
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\Luminance.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\Mobile-Particle-Add (Cull On).shader" />
      <None Include="Assets\Destroyed_city_FREE\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\DynamicWater_ReadMe.txt" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterSimple.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\GrayscaleEffect.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\SepiaToneEffect.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\TwirlEffect.shader" />
@@ -113,6 +154,7 @@
      <None Include="Assets\Destroyed_city_FREE\Shaders\AlphaTest-DiffuseDoubleSide.shader" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\EdgeDetectX.shader" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterReflectiveSimple.shader" />
      <None Include="Assets\UnderWater\READ ME.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>C:/Users/Feiko van Dijk/Documents/GitHub/hello-world/Unity Feiko/Survival game 2/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
@@ -125,6 +167,9 @@
  </Reference>
  <Reference Include="UnityEngine.Cloud.Analytics.Util">
  <HintPath>C:/Users/Feiko van Dijk/Documents/GitHub/hello-world/Unity Feiko/Survival game 2/Assets/Plugins/UnityEngine.Cloud.Analytics.Util.dll</HintPath>
+ </Reference>
+ <Reference Include="DynamicWaterNativeWrapper">
+ <HintPath>C:/Users/Feiko van Dijk/Documents/GitHub/hello-world/Unity Feiko/Survival game 2/Assets/Plugins/DynamicWaterNativeWrapper.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

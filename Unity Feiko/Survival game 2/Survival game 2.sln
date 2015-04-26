@@ -5,6 +5,8 @@ Project("{40FD19B6-294A-7358-27B4-43CAEBB96D0F}") = "Survival game 2", "Assembly
 EndProject
 Project("{40FD19B6-294A-7358-27B4-43CAEBB96D0F}") = "Survival game 2", "Assembly-CSharp.csproj", "{F349C577-DEF9-9045-1BE5-53A5494F9DF3}"
 EndProject
+Project("{40FD19B6-294A-7358-27B4-43CAEBB96D0F}") = "Survival game 2", "Assembly-CSharp-Editor.csproj", "{4FA41586-FAF4-3837-0BDE-084AE6AF37E8}"
+EndProject
 Project("{40FD19B6-294A-7358-27B4-43CAEBB96D0F}") = "Survival game 2", "Assembly-UnityScript-firstpass.unityproj", "{7498F7A2-8B40-6532-CD95-CF860FB9F478}"
 EndProject
 Project("{40FD19B6-294A-7358-27B4-43CAEBB96D0F}") = "Survival game 2", "Assembly-UnityScript.unityproj", "{00F76C03-EA99-4027-0CBA-75DDB99841DD}"
@@ -23,6 +25,10 @@ Global
 		{F349C577-DEF9-9045-1BE5-53A5494F9DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F349C577-DEF9-9045-1BE5-53A5494F9DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F349C577-DEF9-9045-1BE5-53A5494F9DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA41586-FAF4-3837-0BDE-084AE6AF37E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA41586-FAF4-3837-0BDE-084AE6AF37E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA41586-FAF4-3837-0BDE-084AE6AF37E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA41586-FAF4-3837-0BDE-084AE6AF37E8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7498F7A2-8B40-6532-CD95-CF860FB9F478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7498F7A2-8B40-6532-CD95-CF860FB9F478}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7498F7A2-8B40-6532-CD95-CF860FB9F478}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -35,7 +41,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																																																																																																																						GlobalSection(MonoDevelopProperties) = preSolution
+																																																																																																																																																										GlobalSection(MonoDevelopProperties) = preSolution
 =======
 																																																																																																																																															GlobalSection(MonoDevelopProperties) = preSolution
 =======
