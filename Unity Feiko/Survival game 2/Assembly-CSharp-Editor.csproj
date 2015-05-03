@@ -112,6 +112,9 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
+ <Reference Include="DynamicWaterNativeWrapper">
+ <HintPath>C:/Users/Feiko van Dijk/Documents/GitHub/hello-world/Unity Feiko/Survival game 2/Assets/Plugins/DynamicWaterNativeWrapper.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.Cloud.Analytics">
  <HintPath>C:/Users/Feiko van Dijk/Documents/GitHub/hello-world/Unity Feiko/Survival game 2/Assets/Plugins/UnityEngine.Cloud.Analytics.dll</HintPath>
  </Reference>
@@ -147,9 +150,6 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="DynamicWaterNativeWrapper">
- <HintPath>C:/Users/Feiko van Dijk/Documents/GitHub/hello-world/Unity Feiko/Survival game 2/Assets/Plugins/DynamicWaterNativeWrapper.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
