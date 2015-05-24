@@ -1,5 +1,6 @@
 ﻿#pragma strict
 
+// why are you looking at this code?
 var treeHealth : int = 5;
 
 var logs : Transform;
