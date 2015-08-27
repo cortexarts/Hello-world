@@ -1,9 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Custom spul\Survival game scripts\PlayerControl1.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Custom spul\Survival game scripts\PlayerControl.js">
     <Files>
-      <File FileName="Assets\Custom spul\Survival game scripts\RayCastChop.js" Line="23" Column="67" />
-      <File FileName="Assets\Custom spul\Survival game scripts\PlayerControl1.js" Line="9" Column="46" />
+      <File FileName="Assets\Custom spul\Survival game scripts\RayCastChop.js" Line="3" Column="24" />
+      <File FileName="Assets\Custom spul\Survival game scripts\TreeController.js" Line="1" Column="1" />
+      <File FileName="Assets\Custom spul\Survival game scripts\RayCastTree.js" Line="1" Column="1" />
+      <File FileName="Assets\Custom spul\Survival game scripts\PlayerControl.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -1,6 +1,6 @@
 ﻿#pragma strict
 
-var rayLength : int = 10;
+var rayLength : int = 8;
 
 //private var treeScript : TreeController;
 private var playerAnim : PlayerControl;
