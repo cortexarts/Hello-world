@@ -1,10 +1,10 @@
 # =============== #
 # Unity generated #
 # =============== #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
+Project/[Ll]ibrary/
+Project/[Tt]emp/
+Project/[Oo]bj/
+Project/[Bb]uild/
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
