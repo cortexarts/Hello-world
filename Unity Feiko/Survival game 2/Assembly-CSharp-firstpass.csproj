@@ -122,6 +122,7 @@
      <None Include="Assets\Palm Trees\Shaders\WavingDoublePassNoCullBackface.shader" />
      <None Include="Assets\Destroyed_city_FREE\Destroyed_city_FREE_Info.txt" />
      <None Include="Assets\Pro Standard Assets\Image Based\ColorCorrectionEffect.shader" />
+     <None Include="Assets\A_piece_of_nature\Readme.txt" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\MotionBlur.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
@@ -133,6 +134,7 @@
      <None Include="Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
      <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterBumped_Fresnel.shader" />
+     <None Include="Assets\Baker House\Readme.txt" />
      <None Include="Assets\Pro Standard Assets\Glass Refraction\Glass-Stained-BumpSpecDistort.shader" />
      <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterSimpleObstructionAlpha.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\GlowEffectDownsample_26.shader" />
