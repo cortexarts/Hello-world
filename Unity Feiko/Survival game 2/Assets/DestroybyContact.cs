@@ -8,7 +8,7 @@ public class DestroybyContact : MonoBehaviour {
 	
 	void OnTriggerEnter(Collider other) 
 	{
-		Destroy(other.gameObject);
+		Instantiate (explosion, other.gameObject.transform.position, other.gameObject.transform.rotation);
 		Destroy(gameObject);
 	}
 }
