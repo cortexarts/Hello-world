@@ -1,0 +1,32 @@
+﻿============ Info ============
+Boost your game with one script. Just add it to camera, and it will choose render quality on runtime, depending on user's machine.
+Perfect compromise between performance and image quality for all devices, with one click!
+
+Features:
+ * Calculates and sets proper render quality mode on start
+ * Tracks current framerate all the time and changes quality dynamically, during gameplay
+ * Correct FPS counting, even if game is paused
+ * Dynamic threshold for avoiding changing quality too often
+ * It's open source, so integration with quality-menu is easy
+ * Automatically stops if user sets quality manually
+
+Please direct any comments/suggestions to kris@krej.net
+
+============ How to use it? ============
+Just add AutoQualityChooser.js component to any game object in your project (camera seems good idea). It's all! If you want, you may adjust parameters to make it better fit your needs. 
+
+============ Parameters ============
+Min Acceptable Framerate - if current fps will be lower than that value, script will change quality to lower one.
+Current quality - current quality (read-only field)
+Current framerate - current fps (read-only field)
+Force best quality on start - if set to true, removes quality approximation. It's worth to use it in simple projects to avoid changes of quality on start.
+Disable after manual quality change - check if somewhere in game is quality-menu and if user will use it, script should stop
+Disabled - if checked, script won't run
+Verbose - Log debug messages about quality changes
+Update rate - how many times per second quality and fps should be checked
+Threshold - make it higher to avoid too frequent quality changes
+
+Please direct any comments/suggestions to kris@krej.net
+
+Best regards,
+Kris
